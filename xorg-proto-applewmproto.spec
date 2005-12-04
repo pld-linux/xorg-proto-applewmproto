@@ -1,5 +1,5 @@
 Summary:	AppleWM extension headers
-Summary(pl):	Nag³ówki rozszerzenia AppleWM.
+Summary(pl):	Nag³ówki rozszerzenia AppleWM
 Name:		xorg-proto-applewmproto
 Version:	1.0.1
 Release:	0.1
