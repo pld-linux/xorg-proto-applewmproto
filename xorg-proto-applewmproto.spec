@@ -1,12 +1,12 @@
 Summary:	AppleWM extension headers
 Summary(pl):	Nag³ówki rozszerzenia AppleWM
 Name:		xorg-proto-applewmproto
-Version:	1.0.1
+Version:	1.0.2
 Release:	0.1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC1/proto/applewmproto-%{version}.tar.bz2
-# Source0-md5:	3e63ff6ff6dd74a0adf419aa3c7d61b0
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC4/proto/applewmproto-%{version}.tar.bz2
+# Source0-md5:	56bdb3e04870a315d9ff4204b382b802
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -54,5 +54,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files devel
 %defattr(644,root,root,755)
+%doc ChangeLog
 %{_includedir}/X11/extensions/*.h
 %{_pkgconfigdir}/applewmproto.pc
