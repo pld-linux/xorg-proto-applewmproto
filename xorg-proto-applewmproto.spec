@@ -5,7 +5,7 @@ Version:	1.0.3
 Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/proto/applewmproto-X11R7.0-%{version}.tar.bz2
+Source0:	http://xorg.freedesktop.org/releases/individual/proto/applewmproto-%{version}.tar.bz2
 # Source0-md5:	2acf46c814a27c40acd3e448ed17fee3
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
