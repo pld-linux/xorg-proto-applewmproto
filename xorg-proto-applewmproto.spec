@@ -6,7 +6,7 @@ Release:	1
 License:	MIT
 Group:		X11/Development/Libraries
 Source0:	http://xorg.freedesktop.org/releases/individual/proto/applewmproto-%{version}.tar.bz2
-# Source0-md5:	2acf46c814a27c40acd3e448ed17fee3
+# Source0-md5:	d5d7c69837cc7dcbf2aa181ff423ab20
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
