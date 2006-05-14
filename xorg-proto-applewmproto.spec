@@ -32,7 +32,7 @@ AppleWM extension headers.
 Nag³ówki rozszerzenia AppleWM.
 
 %prep
-%setup -q -n applewmproto-X11R7.0-%{version}
+%setup -q -n applewmproto-%{version}
 
 %build
 %{__aclocal}
