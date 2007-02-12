@@ -1,5 +1,5 @@
 Summary:	AppleWM extension headers
-Summary(pl):	Nag丑wki rozszerzenia AppleWM
+Summary(pl.UTF-8):   Nag艂贸wki rozszerzenia AppleWM
 Name:		xorg-proto-applewmproto
 Version:	1.0.3
 Release:	1
@@ -16,20 +16,20 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 AppleWM extension headers.
 
-%description -l pl
-Nag丑wki rozszerzenia AppleWM.
+%description -l pl.UTF-8
+Nag艂贸wki rozszerzenia AppleWM.
 
 %package devel
 Summary:	AppleWM extension headers
-Summary(pl):	Nag丑wki rozszerzenia AppleWM
+Summary(pl.UTF-8):   Nag艂贸wki rozszerzenia AppleWM
 Group:		X11/Development/Libraries
 Requires:	xorg-proto-xproto-devel
 
 %description devel
 AppleWM extension headers.
 
-%description devel -l pl
-Nag丑wki rozszerzenia AppleWM.
+%description devel -l pl.UTF-8
+Nag艂贸wki rozszerzenia AppleWM.
 
 %prep
 %setup -q -n applewmproto-%{version}
